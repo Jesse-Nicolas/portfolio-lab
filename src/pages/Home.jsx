@@ -1,6 +1,9 @@
 const Home = () => {
   return (  
-    <h1>Home Page</h1>
+    <>
+      <h1>Hello, world!</h1>
+      <h2>I'm Jesse Nicolas, a Software Engineer.</h2>
+    </>
   );
 }
 
