@@ -1,0 +1,15 @@
+.branding-statement {
+  margin: 20px;
+}
+
+#photos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#photos-container > img {
+  border-radius: 10px;
+  border: 8px #354f52;
+  padding: 5px;
+}
