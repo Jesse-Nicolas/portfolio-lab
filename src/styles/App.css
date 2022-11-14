@@ -1,0 +1,44 @@
+main {
+  --bg1: #edede9;
+  --bg2: #d6ccc2;
+  --bg3: #e3d5ca;
+  --fg1: #bc6c25;
+  --fg2: #354f52;
+  --fg3: #ffc300;
+}
+
+html,
+body,
+#root,
+main {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #edede9;
+  color: #354f52;
+  font-family: 'Chillax', sans-serif;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #edede9;
+}
+
+#home-link {
+  margin-right: 60px;
+}
+
+.navlink {
+  margin: 10px;
+  color: #354f52;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  color: cadetblue;
+  text-decoration: underline;
+}
+
