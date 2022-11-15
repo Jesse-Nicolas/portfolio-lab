@@ -11,6 +11,8 @@ const ProjectDetails = () => {
       <h1>{project.title}</h1>
       <p>{project.description}</p>
       <img src={project.image} alt="project screenshot" />
+      <br/><a href={project.repositoryLink}>Github Repo</a> 
+      <br/><a href={project.deploymentLink}>Deployed site</a>
     </>
   );
 }
