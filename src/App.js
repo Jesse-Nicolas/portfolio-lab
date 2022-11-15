@@ -1,4 +1,5 @@
 import './styles/App.css';
+import { projectData } from "./data/projects.js";
 import { Route, Routes } from 'react-router-dom';
 import NavBar from './Components/Navbar';
 import Home from './pages/Home';
@@ -17,7 +18,7 @@ return (
         <Route path='about' element={<About />} />
         <Route path='contact' element={<Contact />} />
         <Route path='resume' element={<Resume />} />
-        <Route path='projects' element={<Projects />} />
+        <Route path='projects' element={<Projects projectData={projectData} />} />
       </Routes>
     </main>
   </>
