@@ -2,7 +2,10 @@ import ProjectsList from "../Components/ProjectsList";
 
 const Projects = (props) => {
   return (  
-    <ProjectsList projectData={props.projectData} />
+    <>
+      <h1>Projects</h1>
+      <ProjectsList projectData={props.projectData} />
+    </>
   );
 }
 
