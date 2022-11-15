@@ -1,3 +1,9 @@
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .img-container {
   display: flex;
   flex-direction: column;
@@ -6,12 +12,14 @@
   background-size: cover;  
   height: 150px;
   width: 250px;
+  margin: 5px;
 }
 
 .img-container h2 {
   visibility: hidden;
   color: #354f52;
   margin-top: 50px;
+  text-decoration: none;
 }
 
 .img-container:hover h2 {
@@ -24,4 +32,8 @@
 
 #light {
   color: #d6ccc2;
+}
+
+a {
+  text-decoration: none;
 }
