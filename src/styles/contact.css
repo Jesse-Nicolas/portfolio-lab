@@ -1,0 +1,27 @@
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 40px;
+  background-size: cover;  
+  height: 150px;
+  width: 250px;
+}
+
+.img-container h2 {
+  visibility: hidden;
+  color: #354f52;
+  margin-top: 50px;
+}
+
+.img-container:hover h2 {
+  visibility: visible;
+}
+
+#dark {
+  color: #354f52;
+}
+
+#light {
+  color: #d6ccc2;
+}
