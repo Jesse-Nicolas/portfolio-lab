@@ -1,6 +1,5 @@
 import '../styles/about.css'
 import winery from '../assets/winery.jpg'
-import truck from '../assets/truck.jpg'
 import tahoe from '../assets/tahoe.jpg'
 
 const About = () => {

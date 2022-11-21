@@ -5,9 +5,10 @@ const Home = () => {
   return (  
     <>
       <div className='page-content'>
-        <h2 id='greeting'>hello, world!</h2>
-        <img src={reclining} alt="reclining in yellowstone" />
-        <h1 id='intro'>I'm Jesse Nicolas, <br />your new Software Engineer.</h1>
+        <div id='intro'>
+          <img src={reclining} alt="reclining in yellowstone" />
+          <p className="typewriter">I'm Jesse, a full-stack Software Engineer.</p>
+        </div>
       </div>
     </>
   );
