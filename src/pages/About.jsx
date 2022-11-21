@@ -13,7 +13,6 @@ const About = () => {
       <div id='photos-container'>
         <img src={tahoe} alt="tahoe fire lookout" />
         <img src={winery} alt="at a winery" />
-        {/* <img src={truck} alt="the truck" /> */}
       </div>
     </> 
   );
