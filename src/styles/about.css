@@ -1,15 +1,39 @@
 .branding-statement {
-  margin: 20px;
+  margin: 20px; 
+  max-width: 50%;
 }
 
 #photos-container {
+  justify-content: flex-end;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  flex-direction: row;
+  width: 40%;
 }
 
 #photos-container > img {
   border-radius: 10px;
-  border: 8px #354f52;
-  padding: 5px;
+  float: left;
+  box-shadow: rgba(0,0,0, 0.16) 0px 10px 36px 0px, rgba(0,0,0, 0.06) 0px 0px 0px 1px;
+  width: 100%;
+  height: auto;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: lightgoldenrodyellow;
+  height: auto;
+  margin: 10px;
 }

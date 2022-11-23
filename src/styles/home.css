@@ -1,4 +1,4 @@
-img {
+#homepicture {
   height: 200px;
   width: 300px;
   border-radius: 15px;
@@ -14,11 +14,12 @@ img {
 
 #intro p {
   padding: 10px;
+  font-size: larger;
+  font-weight: 700;
 }
 
 #intro {
   padding: 30px;
-  letter-spacing: 1.5px;
 }
 
 .typewriter {

@@ -16,8 +16,8 @@ main {
   box-sizing: border-box;
   background: #354f52;
   color: #edede9;
-  font-family: 'Chillax', sans-serif;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav {
