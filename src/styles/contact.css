@@ -1,6 +1,6 @@
 .links {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -12,7 +12,7 @@
   background-size: cover;  
   height: 150px;
   width: 250px;
-  margin: 5px;
+  margin: 20px;
 }
 
 .img-container h2 {
@@ -36,4 +36,11 @@
 
 a {
   text-decoration: none;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
