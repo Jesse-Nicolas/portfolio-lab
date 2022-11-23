@@ -1,0 +1,14 @@
+.big-image {
+  max-width: 60vw;
+  max-height: 60vh;
+}
+
+.link {
+  padding: 25px;
+  text-decoration: none;
+  color: #edede9;
+}
+
+.link:hover {
+  color: cadetblue;
+}
