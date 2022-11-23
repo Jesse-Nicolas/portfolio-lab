@@ -1,6 +1,7 @@
 #form {
   display: flex; 
   flex-direction: column;
+  align-items: center;
   width: 400px;
   height: 600px;
   padding: 10px;
@@ -10,4 +11,13 @@
 
 #form {
   color: #354f52;
+}
+
+.btn {
+  width: min-content;
+  margin: 5px;
+}
+
+.input {
+  margin: 5px;
 }

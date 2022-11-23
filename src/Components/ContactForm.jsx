@@ -19,7 +19,7 @@ const ContactForm = () => {
         message: message,
       }
       try {
-        emailjs.send(serviceId, templateId, templateParams, userID)
+        await emailjs.send(serviceId, templateId, templateParams, userID)
       } catch (error) {
         console.log(error)
       }
@@ -33,10 +33,16 @@ const ContactForm = () => {
   return (  
     <>
       <div id='form'>
-        <h3>Send me a message</h3>
-        <input type="text" value={userName} name='userName' placeholder='your name' onChange={e => setUserName(e.target.value)}/>
-        <input type="email" value={userEmail} name='userEmail' placeholder='your email' onChange={e => setUserEmail(e.target.value)}/>
-        <textarea name="message" value={message} cols="30" rows="20" placeholder='message' onChange={e => setMessage(e.target.value)}/>
+        <h3>send me a message</h3>
+        <div className='input'>
+          <label htmlFor="userName">name:</label>
+          <input type="text" value={userName} name='userName' placeholder='your name' onChange={e => setUserName(e.target.value)}/>
+        </div>
+        <div className='input'>
+          <label htmlFor="userEmail">email:</label>
+          <input type="email" value={userEmail} name='userEmail' placeholder='your email' onChange={e => setUserEmail(e.target.value)}/>
+        </div>
+        <textarea name="message" value={message} cols="40" rows="20" placeholder='message' onChange={e => setMessage(e.target.value)}/>
         <button type="button" class="btn btn-secondary" onClick={submitMessage}>Send</button>
       </div>
     </>
