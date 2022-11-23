@@ -5,9 +5,15 @@
 }
 
 .card {
-  width: 350px;
-  height: auto;
+  width: auto;
+  height: min-content;
   background-color: #edede9;
   color: #354f52;
+  margin: 10px;
+
 }
 
+.project-img {
+  max-width: 400px;
+  max-height: 400px;
+}

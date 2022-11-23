@@ -7,7 +7,7 @@ const ProjectPreview = (props) => {
     <>
       <div className='card'>
         <p>{props.project.title}</p>
-        <img src={props.project.image} alt="screenshot"></img>
+        <img className='project-img' src={props.project.image} alt="screenshot"></img>
         <Link to={`/projects/${hyphenate(props.project.title)}`}>
           learn more
         </Link>
