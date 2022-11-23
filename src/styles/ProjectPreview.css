@@ -3,3 +3,11 @@
   flex-direction: row;
   justify-content: space-around;
 }
+
+.card {
+  width: 350px;
+  height: auto;
+  background-color: #edede9;
+  color: #354f52;
+}
+

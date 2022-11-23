@@ -18,6 +18,9 @@ main {
   color: #edede9;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 nav {
@@ -40,3 +43,6 @@ nav {
   color: cadetblue;
 }
 
+.footer {
+  margin-top: auto;
+}

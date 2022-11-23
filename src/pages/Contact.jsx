@@ -2,6 +2,7 @@ import '../styles/contact.css'
 import github from '../assets/github.png'
 import linkedin from '../assets/linkedin.png'
 import ContactForm from '../Components/ContactForm'
+import Footer from '../Components/Footer'
 
 const Contact = () => {
   return (  
@@ -21,7 +22,9 @@ const Contact = () => {
             </div>
           </a>
         </div>
-
+      </div>
+      <div className='footer'>
+        <Footer />
       </div>
     </>
   );

@@ -4,10 +4,6 @@
 }
 
 #photos-container {
-  justify-content: flex-end;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   width: 40%;
 }
 
@@ -15,13 +11,15 @@
   border-radius: 10px;
   float: left;
   box-shadow: rgba(0,0,0, 0.16) 0px 10px 36px 0px, rgba(0,0,0, 0.06) 0px 0px 0px 1px;
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 
 .about {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-links {

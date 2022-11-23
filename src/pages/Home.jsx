@@ -1,5 +1,6 @@
 import '../styles/home.css'
 import reclining from '../assets/reclining.jpg'
+import Footer from '../Components/Footer';
 
 const Home = () => {
   return (  
@@ -16,6 +17,9 @@ const Home = () => {
       
       <a className="icon-link" href="https://www.github.com/jesse-nicolas"> <i class="fa-brands fa-github fa-xl"></i></a>
       </div>
+      </div>
+      <div className='footer'>
+        <Footer />
       </div>
     </>
   );
