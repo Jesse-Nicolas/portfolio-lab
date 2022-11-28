@@ -1,10 +1,6 @@
 main {
   --bg1: #edede9;
-  --bg2: #d6ccc2;
-  --bg3: #e3d5ca;
-  --fg1: #bc6c25;
-  --fg2: #354f52;
-  --fg3: #ffc300;
+  --fg2: #1c2c2d;
 }
 
 html,
@@ -14,7 +10,7 @@ main {
   margin: 0;
   /* overflow: hidden; */
   box-sizing: border-box;
-  background: #354f52;
+  background: #1c2c2d;
   color: #edede9;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -39,7 +35,7 @@ nav {
 
 .navlink {
   margin: 10px;
-  color: #354f52;
+  color: #1c2c2d;
   text-decoration: none;
 }
 
