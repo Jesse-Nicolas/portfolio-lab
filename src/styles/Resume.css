@@ -2,3 +2,7 @@ object {
   margin-top: 25px;
   height: 85vh;
 }
+
+.resume-img {
+  max-width: 85vw;
+}
