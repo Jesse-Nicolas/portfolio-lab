@@ -1,7 +1,6 @@
 import '../styles/ProjectDetails.css'
 import { find } from "../utilities/findProject";
 import { useParams } from "react-router-dom";
-import Footer from "../Components/Footer";
 
 const ProjectDetails = () => {
   const title = useParams()
@@ -18,9 +17,6 @@ const ProjectDetails = () => {
       <div className='details-links'>
         <a className='link' href={project.repositoryLink}>Github Repo</a> 
         <a className='link' href={project.deploymentLink}>Deployed site</a>
-      </div>
-      <div className='footer'>
-        <Footer />
       </div>
     </>
   );

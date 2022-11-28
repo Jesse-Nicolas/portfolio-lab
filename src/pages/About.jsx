@@ -1,5 +1,4 @@
 import '../styles/about.css'
-import Footer from '../Components/Footer'
 import winery from '../assets/winery.jpg'
 import tahoe from '../assets/tahoe.jpg'
 
@@ -15,9 +14,6 @@ const About = () => {
         <div id='photos-container'>
           <img src={winery} alt="at a winery" />
         </div>
-      </div>
-      <div className='footer'>
-        <Footer />
       </div>
     </> 
   );

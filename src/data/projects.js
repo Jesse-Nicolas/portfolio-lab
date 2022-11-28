@@ -1,5 +1,5 @@
 import discography from '../assets/discography.png'
-import snake from '../assets/snake.jpeg'
+import snake from '../assets/snake.png'
 import tahoejesse from '../assets/tahoejesse.png'
 
 export const projectData = [
