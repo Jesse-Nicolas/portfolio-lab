@@ -1,19 +1,36 @@
-.info {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
 .card {
-  width: auto;
+  width: 80vw;
   height: min-content;
   background-color: #edede9;
   color: #1c2c2d;
   margin: 10px;
-
+  display: grid;
+  grid-template-columns: 40% 60%;
 }
 
 .project-img {
   max-width: 400px;
-  max-height: 400px;
+  max-height: 350px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#details-link {
+  margin-top: auto;
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.techIcon {
+  max-height: 50px;
 }

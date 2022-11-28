@@ -1,8 +1,14 @@
 object {
+  max-width: 85vw;
   margin-top: 25px;
   height: 85vh;
 }
 
 .resume-img {
   max-width: 85vw;
+}
+
+.resume-content {
+  display: flex;
+  justify-content: center;
 }
