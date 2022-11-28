@@ -24,7 +24,9 @@ return (
         <Route path='projects' element={<Projects projectData={projectData} />} />
         <Route path='projects/:projectDetails' element={<ProjectDetails />} />
       </Routes>
-      <Footer className='footer'/>
+      <div className='footer'>
+        <Footer />
+      </div>
     </main>
   </>
   );
