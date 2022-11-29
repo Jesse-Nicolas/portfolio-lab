@@ -20,7 +20,7 @@ export const projectData = [
     image: discography, 
     repositoryLink: 'https://github.com/Jesse-Nicolas/discography', 
     deploymentLink: 'https://discography-django.herokuapp.com/',
-    techStack: [python, django, docker, node, css, html]
+    techStack: [{name: 'Python', image: python}, {name: 'Django', image: django}, {name: 'Docker', image: docker}, {name: 'Node', image: node}, {name:'CSS', image: css}, {name: 'HTML', image: html}]
   },
   {
     title: 'TahoeJesse', 
@@ -28,7 +28,7 @@ export const projectData = [
     image: tahoejesse, 
     repositoryLink: 'https://github.com/Jesse-Nicolas/TahoeJesse', 
     deploymentLink: 'https://tahoe-jesse.fly.dev/profiles/633e075349132f57e5a52c74',    
-    techStack: [mongo, express, node, javascript, css, html]
+    techStack: [{name: 'MongoDB', image: mongo}, {name: 'Express', image: express}, {name: 'Node', image: node}, {name: 'JavaScript', image: javascript}, {name: 'CSS', image: css}, {name: 'HTML', image: html}]
   },
   {
     title: 'Snake', 
@@ -36,6 +36,6 @@ export const projectData = [
     image: snake, 
     repositoryLink: 'https://github.com/Jesse-Nicolas/snake', 
     deploymentLink: 'https://jesses-snake.netlify.app/',
-    techStack: [mongo, express, node, javascript, css, html]
+    techStack: [{name: 'MongoDB', image: mongo}, {name: 'Express', image: express}, {name: 'Node', image: node}, {name: 'JavaScript', image: javascript}, {name: 'CSS', image: css}, {name: 'HTML', image: html}]
   },
 ]
