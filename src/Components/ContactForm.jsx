@@ -35,11 +35,11 @@ const ContactForm = () => {
       <div id='form'>
         <h3>send me a message</h3>
         <div className='input'>
-          <label htmlFor="userName">name:</label>
+          <label htmlFor="userName">name: </label>
           <input type="text" value={userName} name='userName' placeholder='your name' onChange={e => setUserName(e.target.value)}/>
         </div>
         <div className='input'>
-          <label htmlFor="userEmail">email:</label>
+          <label htmlFor="userEmail">email: </label>
           <input type="email" value={userEmail} name='userEmail' placeholder='your email' onChange={e => setUserEmail(e.target.value)}/>
         </div>
         <textarea name="message" value={message} cols="40" rows="20" placeholder='message' onChange={e => setMessage(e.target.value)}/>

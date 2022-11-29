@@ -9,28 +9,48 @@
 }
 
 .project-img {
-  max-width: 400px;
+  max-width: 100%;
   max-height: 350px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  
+  align-items: center;
 }
 
 #tech-stack {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-#details-link {
   margin-top: auto;
-  align-self: flex-end;
-  margin-right: 10px;
 }
 
-.techIcon {
-  max-height: 50px;
+.tech-icon {
+  max-height: 40px;
+  margin: 5px;
+}
+
+#img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-link {
+  color: #1c2c2d;
+  margin: 5px;
+}
+
+.preview-link:hover {
+  color: cadetblue;
+}
+
+.preview-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
 }

@@ -6,21 +6,29 @@ const ProjectPreview = (props) => {
   return (  
     <>
       <div className='card'>
-        <div>
+        <div id='img-container'>
           <img className='project-img' src={props.project.image} alt="screenshot"></img>
         </div>
         <div className="info">
-          <h3>{props.project.title}</h3>
+          <div className='preview-header'>
+            <h2>{props.project.title}</h2>
+            <div>
+              <a href={props.project.repositoryLink} className='preview-link'>
+                <i className="fa-brands fa-github fa-xl"/>         
+              </a>
+              <a href={props.project.deploymentLink} className='preview-link'>
+                <i className="fa-solid fa-link fa-xl"/>
+              </a>
+              <Link to={`/projects/${hyphenate(props.project.title)}`}>
+                <i className="fa-solid fa-magnifying-glass fa-xl preview-link"></i>
+              </Link>
+            </div>
+          </div>
           <p>{props.project.description}</p>
           <div id='tech-stack'>
             {props.project.techStack.map(icon => (
-              <img src={icon} className='techIcon' alt='technology icon'></img>
+              <img src={icon} className='tech-icon' alt='technology icon'></img>
             ))}
-          </div>
-          <div id='details-link'>
-            <Link to={`/projects/${hyphenate(props.project.title)}`}>
-              learn more
-            </Link>
           </div>
         </div>
       </div>

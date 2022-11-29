@@ -28,11 +28,11 @@ export const projectData = [
     image: tahoejesse, 
     repositoryLink: 'https://github.com/Jesse-Nicolas/TahoeJesse', 
     deploymentLink: 'https://tahoe-jesse.fly.dev/profiles/633e075349132f57e5a52c74',    
-    techStack: [react, mongo, express, node, javascript, css, html]
+    techStack: [mongo, express, node, javascript, css, html]
   },
   {
     title: 'Snake', 
-    description: 'A re-creation of a mobile classic! This version of snake is written entirely with HTML, CSS, and JavaScript.', 
+    description: 'A re-creation of a mobile classic! This version of snake is written with HTML, CSS, and JavaScript.', 
     image: snake, 
     repositoryLink: 'https://github.com/Jesse-Nicolas/snake', 
     deploymentLink: 'https://jesses-snake.netlify.app/',
