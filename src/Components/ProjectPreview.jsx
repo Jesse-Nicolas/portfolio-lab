@@ -1,5 +1,3 @@
-import { hyphenate } from "../utilities/hyphenateWords";
-import { Link } from "react-router-dom";
 import '../styles/ProjectPreview.css'
 
 const ProjectPreview = (props) => {
@@ -19,9 +17,6 @@ const ProjectPreview = (props) => {
               <a href={props.project.deploymentLink} className='preview-link' title='Deployed website'>
                 <i className="fa-solid fa-link fa-xl"/>
               </a>
-              <Link title='More details' to={`/projects/${hyphenate(props.project.title)}`}>
-                <i className="fa-solid fa-magnifying-glass fa-xl preview-link"></i>
-              </Link>
             </div>
           </div>
           <p>{props.project.description}</p>

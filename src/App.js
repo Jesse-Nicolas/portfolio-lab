@@ -7,7 +7,6 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
-import ProjectDetails from './pages/ProjectDetails';
 import Footer from './Components/Footer';
 
 function App() {
@@ -22,7 +21,6 @@ return (
         <Route path='contact' element={<Contact />} />
         <Route path='resume' element={<Resume />} />
         <Route path='projects' element={<Projects projectData={projectData} />} />
-        <Route path='projects/:projectDetails' element={<ProjectDetails />} />
       </Routes>
       <div className='footer'>
         <Footer />
