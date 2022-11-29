@@ -43,7 +43,7 @@ const ContactForm = () => {
           <input type="email" value={userEmail} name='userEmail' placeholder='your email' onChange={e => setUserEmail(e.target.value)}/>
         </div>
         <textarea name="message" value={message} cols="40" rows="20" placeholder='message' onChange={e => setMessage(e.target.value)}/>
-        <button type="button" class="btn btn-secondary" onClick={submitMessage}>Send</button>
+        <button type="button" className="btn btn-secondary" onClick={submitMessage}>Send</button>
       </div>
     </>
   );
