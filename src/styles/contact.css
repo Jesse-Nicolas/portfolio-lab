@@ -7,12 +7,13 @@
 .img-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  border-radius: 40px;
+  justify-content: center;
+  border-radius: 30px;
   background-size: cover;  
   height: 250px;
   width: 350px;
   margin: 20px;
+  box-shadow: 8px 8px 2px #565654;
 }
 
 .img-container h2 {

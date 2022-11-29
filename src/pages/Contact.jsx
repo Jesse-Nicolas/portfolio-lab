@@ -12,7 +12,7 @@ const Contact = () => {
         <div className='links'>
           <a href="https://github.com/Jesse-Nicolas">
             <div className='img-container' style={{backgroundImage: `url(${github})`}}>
-              <h2 id='light'>github</h2>
+              <h2 id='light'>Github</h2>
             </div>
           </a>
           <a href="https://www.linkedin.com/in/jesse-nicolas/">

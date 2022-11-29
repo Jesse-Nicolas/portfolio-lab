@@ -6,6 +6,8 @@
   margin: 10px;
   display: grid;
   grid-template-columns: 40% 60%;
+  padding: 30px;
+  box-shadow: 8px 8px 2px #565654;
 }
 
 .project-img {
@@ -17,6 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: left;
 }
 
 #tech-stack {
@@ -28,7 +31,7 @@
 
 .tech-icon {
   max-height: 40px;
-  margin: 5px;
+  margin: 10px;
 }
 
 #img-container {
@@ -52,5 +55,5 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 10px;
+  /* padding: 10px; */
 }
