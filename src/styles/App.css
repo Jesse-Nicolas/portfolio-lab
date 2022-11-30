@@ -26,11 +26,13 @@ main {
 nav {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   background-color: #edede9;
 }
 
 #home-link {
-  margin-right: 60px;
+  margin-right: auto;
 }
 
 .navlink {
