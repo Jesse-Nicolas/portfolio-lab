@@ -22,7 +22,7 @@ const ProjectPreview = (props) => {
           <p>{props.project.description}</p>
           <div id='tech-stack'>
             {props.project.techStack.map(icon => (
-              <img src={icon.image} className='tech-icon' alt='technology icon'></img>
+              <img src={icon.image} className='tech-icon' alt='technology icon' key={icon.name}></img>
             ))}
           </div>
         </div>

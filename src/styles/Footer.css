@@ -9,3 +9,17 @@
 .icon-link:hover {
   color: cadetblue;
 }
+
+.icon-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: lightgoldenrodyellow;
+  height: auto;
+  margin: 10px;
+}

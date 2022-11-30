@@ -8,7 +8,9 @@ const Contact = () => {
     <>
       <h1>Contact</h1>
       <div className='page-content'>
-        <ContactForm />
+        <div id='form'>
+          <ContactForm />
+        </div>
         <div className='links'>
           <a href="https://github.com/Jesse-Nicolas">
             <div className='img-container' style={{backgroundImage: `url(${github})`}}>
