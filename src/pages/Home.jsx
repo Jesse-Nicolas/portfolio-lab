@@ -9,7 +9,7 @@ const Home = () => {
           <img id="homepicture" src={reclining} alt="reclining in yellowstone" />
           <div id='welcome'>
             <p>I'm Jesse,</p>
-            <p className="typewriter">full-stack Software Engineer.</p>
+            <p className="typewriter">Full-Stack Software Engineer.</p>
           </div>
         </div>
       </div>
