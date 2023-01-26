@@ -17,7 +17,7 @@ import react from '../assets/techIcons/react.png'
 export const projectData = [
   {
     title: 'Discography', 
-    description: 'A Django/SQL database developed with Docker. Discography is an application for documenting one\'s favorite albums and their impressions of it.', 
+    description: 'A Django project developed with Docker and postgreSQL. Discography is an application for documenting one\'s favorite albums and their impressions of it.', 
     image: discography, 
     repositoryLink: 'https://github.com/Jesse-Nicolas/discography', 
     deploymentLink: 'https://discography-django.herokuapp.com/',
