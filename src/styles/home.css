@@ -1,7 +1,7 @@
 #homepicture {
   height: auto;
   max-width: 500px;
-  border-radius: 10px;
+  border-radius: 300px;
   border: 3px solid #edede9;
   box-shadow: 8px 8px 2px #565654;
   margin: 50px;
@@ -16,7 +16,7 @@
 
 #intro {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
   max-width: 100%;
 }
@@ -30,6 +30,14 @@
 
 #welcome {
   width: max-content;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  flex-wrap: nowrap;
+  width: min-content;
 }
 
 .typewriter {
