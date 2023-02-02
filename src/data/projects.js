@@ -17,10 +17,10 @@ import react from '../assets/techIcons/react.png'
 export const projectData = [
   {
     title: 'Discography', 
-    description: 'A Django project developed with Docker and PostgreSQL. Discography is an application for documenting one\'s favorite albums and their impressions of it.', 
+    description: 'A Django project developed with Docker and PostgreSQL. Discography is an application for documenting one\'s favorite albums and their impressions of it. [currently undeployed]', 
     image: discography, 
     repositoryLink: 'https://github.com/Jesse-Nicolas/discography', 
-    deploymentLink: 'https://discography-django.herokuapp.com/',
+    // deploymentLink: 'https://discography-django.herokuapp.com/',
     techStack: [{name: 'Python', image: python}, {name: 'Django', image: django}, {name: 'Docker', image: docker}, {name: 'Node', image: node}, {name:'CSS', image: css}, {name: 'HTML', image: html}]
   },
   {

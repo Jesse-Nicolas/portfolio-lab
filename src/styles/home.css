@@ -28,16 +28,19 @@
   margin-bottom: 0px;
 }
 
-#welcome {
-  width: max-content;
-}
-
 .card-container {
   display: flex;
   flex-direction: row;
   align-items:flex-start;
   flex-wrap: nowrap;
   width: min-content;
+}
+
+.projects h3 {
+  text-align: left;
+  margin-left: 30px;
+  text-decoration: underline;
+  margin-top: 15vh;
 }
 
 .typewriter {
@@ -61,8 +64,12 @@
   50% { border-color: #edede9; }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
+  #intro {
+    flex-direction: column;
+  }
   #homepicture {
+    height: auto;
     max-width: 350px;
   }
 }

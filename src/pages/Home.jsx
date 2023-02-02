@@ -19,17 +19,19 @@ const Home = (props) => {
             <p className="typewriter">Full-Stack Software Engineer.</p>
           </div>
         </div>
-        <PerfectScrollbar 
-      style={projectsContainer}
-      options={{ useBothWheelAxes: true }}
-
-      >
-        <div className='card-container'>
-          { props.projectData.map((project) => (
-            <ProjectPreview key={project.title} project={project} />
-          ))}
+        <div className='projects'>
+          <h3>Portfolio</h3>
+          <PerfectScrollbar 
+          style={projectsContainer}
+          options={{ useBothWheelAxes: true }}
+          >
+          <div className='card-container'>
+            { props.projectData.map((project) => (
+              <ProjectPreview key={project.title} project={project} />
+            ))}
+          </div>
+          </PerfectScrollbar>
         </div>
-      </PerfectScrollbar>
       </div>
     </>
   );
