@@ -1,7 +1,7 @@
 #homepicture {
   height: auto;
   max-width: 500px;
-  border-radius: 10px;
+  border-radius: 300px;
   border: 3px solid #edede9;
   box-shadow: 8px 8px 2px #565654;
   margin: 50px;
@@ -16,7 +16,7 @@
 
 #intro {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   align-items: center;
   max-width: 100%;
 }
@@ -28,8 +28,19 @@
   margin-bottom: 0px;
 }
 
-#welcome {
-  width: max-content;
+.card-container {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  flex-wrap: nowrap;
+  width: min-content;
+}
+
+.projects h3 {
+  text-align: left;
+  margin-left: 30px;
+  text-decoration: underline;
+  margin-top: 15vh;
 }
 
 .typewriter {
@@ -53,8 +64,12 @@
   50% { border-color: #edede9; }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
+  #intro {
+    flex-direction: column;
+  }
   #homepicture {
+    height: auto;
     max-width: 350px;
   }
 }
