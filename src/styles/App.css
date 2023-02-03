@@ -25,6 +25,13 @@ main {
   width: 100vw;
 }
 
+.page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 nav {
   width: 100%;
   display: flex;
@@ -50,4 +57,5 @@ nav {
 
 .footer {
   margin-top: auto;
+  background-color: #edede9;
 }

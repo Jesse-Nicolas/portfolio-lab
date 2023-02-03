@@ -11,7 +11,6 @@ const Home = (props) => {
   }
   return (  
     <>
-      <div className='page-content'>
         <div id='intro'>
           <img id="homepicture" src={reclining} alt="reclining in yellowstone" />
           <div id='welcome'>
@@ -21,6 +20,7 @@ const Home = (props) => {
         </div>
         <div className='projects'>
           <h3>Portfolio</h3>
+          <hr/>
           <PerfectScrollbar 
           style={projectsContainer}
           options={{ useBothWheelAxes: true }}
@@ -32,7 +32,6 @@ const Home = (props) => {
           </div>
           </PerfectScrollbar>
         </div>
-      </div>
     </>
   );
 }

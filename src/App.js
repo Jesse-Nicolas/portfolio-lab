@@ -13,12 +13,14 @@ return (
   <>
     <main>
       <NavBar />
-      <Routes>
-        <Route path='' element={<Home projectData={projectData}/>} />
-        <Route path='about' element={<About />} />
-        <Route path='contact' element={<Contact />} />
-        <Route path='resume' element={<Resume />} />
-      </Routes>
+        <div className='page-content'>
+          <Routes>
+            <Route path='' element={<Home projectData={projectData}/>} />
+            <Route path='about' element={<About />} />
+            <Route path='contact' element={<Contact />} />
+            <Route path='resume' element={<Resume />} />
+          </Routes>
+        </div>
       <div className='footer'>
         <Footer />
       </div>
