@@ -9,7 +9,7 @@ const ContactForm = () => {
 
 
   const submitMessage = async () => {
-    if (userEmail && userName && message) {
+    if (userEmail && message) {
       const serviceId = 'gmail_service_id'
       const templateId = 'contact_form'
       const userID = `MjnnWo5cMd2j84nXh`
@@ -35,12 +35,7 @@ const ContactForm = () => {
       <div id='form'>
         <h3>Reach out</h3>
         <div className='input'>
-          <label htmlFor="userName">Name: </label>
-          <input type="text" value={userName} name='userName' placeholder='your name' onChange={e => setUserName(e.target.value)}/>
-        </div>
-        <div className='input'>
-          <label htmlFor="userEmail">Email: </label>
-          <input type="email" value={userEmail} name='userEmail' placeholder='your email' onChange={e => setUserEmail(e.target.value)}/>
+          <input type="email" value={userEmail} name='userEmail' placeholder='your email here' onChange={e => setUserEmail(e.target.value)}/>
         </div>
         <textarea name="message" value={message} cols="30" rows="20" placeholder='message' onChange={e => setMessage(e.target.value)}/>
         <button type="button" className="btn btn-secondary" onClick={submitMessage}>Send</button>
