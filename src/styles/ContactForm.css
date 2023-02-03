@@ -5,14 +5,12 @@
   width: 370px;
   height: 600px;
   margin: 20px;
-  background-color: #edede9;
+  color: #edede9;
+  background-color: #1c2c2d;
   border-radius: 10px;
-  box-shadow: 8px 8px 2px #565654;
+  box-shadow: 8px 8px 2px #d3d3d0;
 }
 
-#form {
-  color: #1c2c2d;
-}
 
 .btn {
   width: min-content;

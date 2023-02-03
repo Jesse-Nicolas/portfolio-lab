@@ -9,7 +9,7 @@
   align-items: center;
   flex-direction: row;
   padding: 30px;
-  box-shadow: 8px 8px 2px #565654;
+  box-shadow: 8px 8px 2px #d3d3d0;
 }
 
 .project-img {
@@ -77,5 +77,12 @@
   #img-container {
     max-width: 100%;
     max-height: 100%;
+  }
+}
+
+/* color links for touch screen displays */
+@media screen and (max-width:700px) {
+  .preview-link {
+    color: #03484d;
   }
 }

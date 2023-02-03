@@ -1,9 +1,9 @@
 #homepicture {
   height: auto;
   max-width: 500px;
-  border-radius: 300px;
+  border-radius: 10px;
   border: 3px solid #edede9;
-  box-shadow: 8px 8px 2px #565654;
+  box-shadow: 8px 8px 2px #d3d3d0;
   margin: 50px;
 }
 
@@ -38,14 +38,14 @@
 
 .projects h3 {
   text-align: left;
-  margin-left: 30px;
+  margin-left: 20px;
   text-decoration: underline;
   margin-top: 15vh;
 }
 
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid #edede9; /* The typwriter cursor */
+  border-right: .15em solid #1c2c2d; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
@@ -61,7 +61,7 @@
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #edede9; }
+  50% { border-color: #1c2c2d; }
 }
 
 @media screen and (max-width:600px) {

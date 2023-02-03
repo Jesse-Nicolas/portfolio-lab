@@ -1,6 +1,7 @@
 main {
-  --bg1: #edede9;
-  --fg2: #1c2c2d;
+  --bg: #edede9;
+  --fg: #1c2c2d;
+  --shd: #d3d3d0;
 }
 
 html,
@@ -10,8 +11,8 @@ main {
   margin: 0;
   /* overflow: hidden; */
   box-sizing: border-box;
-  background: #1c2c2d;
-  color: #edede9;
+  color: #1c2c2d;
+  background: #edede9;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   display: flex;

@@ -9,7 +9,7 @@
 
 #photos-container > img {
   border-radius: 10px;
-  box-shadow: rgba(0,0,0, 0.16) 0px 10px 36px 0px, rgba(0,0,0, 0.06) 0px 0px 0px 1px, 8px 8px 2px #565654;
+  box-shadow: rgba(0,0,0, 0.16) 0px 10px 36px 0px, rgba(0,0,0, 0.06) 0px 0px 0px 1px, 8px 8px 2px #d3d3d0;
   ;
   width: 90%;
   max-width: 300px;
