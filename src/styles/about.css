@@ -1,3 +1,7 @@
+.page-content {
+  flex-direction: column;
+}
+
 .branding-statement {
   margin: 20px; 
   max-width: 500px;

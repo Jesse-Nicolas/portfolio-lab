@@ -23,7 +23,11 @@ const Home = (props) => {
           <hr/>
           <PerfectScrollbar 
           style={projectsContainer}
-          options={{ useBothWheelAxes: true }}
+          options={{ 
+            useBothWheelAxes: true,
+          }}
+          onXReachEnd={ ref => {window.scrollBy(0, 200)}}
+          onXReachStart={ ref => {window.scrollBy(0, -200)}}
           >
           <div className='card-container'>
             { props.projectData.map((project) => (

@@ -30,6 +30,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* height:fit-content; */
 }
 
 nav {
@@ -57,5 +58,7 @@ nav {
 
 .footer {
   margin-top: auto;
-  background-color: #edede9;
+  background-color: transparent;
 }
+
+
