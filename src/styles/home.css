@@ -14,9 +14,11 @@
 
 #intro {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row-reverse;
+  justify-content: center;
   align-items: center;
-  max-width: 100%;
+  width: auto;
 }
 
 #intro p {
