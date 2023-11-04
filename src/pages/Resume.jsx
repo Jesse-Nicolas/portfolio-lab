@@ -1,5 +1,5 @@
 import '../styles/Resume.css'
-import resume from '../assets/resume_jesse_nicolas.pdf'
+import resume from '../assets/jesse_nicolas_resume.pdf'
 import resumePng from '../assets/Resume.png'
 
 const Resume = () => {

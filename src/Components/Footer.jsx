@@ -1,5 +1,5 @@
 import '../styles/Footer.css'
-import resume from '../assets/resume_jesse_nicolas.pdf'
+import resume from '../assets/jesse_nicolas_resume.pdf'
 
 const Footer = () => {
   return (  
